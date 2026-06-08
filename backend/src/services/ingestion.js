@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const pdf = require('pdf-parse');
-const { v4: uuidv4 } = require('uuid');
+const crypto = require('crypto');
 const { addDocuments } = require('./chroma');
 
 const DATA_DIR = path.join(__dirname, '../../data');
