@@ -1,0 +1,20 @@
+{
+  "name": "project-lens",
+  "version": "1.0.0",
+  "description": "Project-Lens - Developer Intelligence Platform",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd backend && node index.js",
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "build": "cd frontend && npm run build"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "dependencies": {
+    "@chroma-core/default-embed": "^0.1.9"
+  }
+}
