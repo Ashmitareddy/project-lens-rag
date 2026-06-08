@@ -57,3 +57,20 @@ This monorepo is configured for standard Vercel deployment.
 
 The `vercel.json` file automatically routes all `/api/*` traffic to Serverless Functions powered by `backend/index.js`, while serving the compiled React frontend for all other routes.
 Make sure to add all environment variables in your Vercel project settings.
+
+5. **Screenshots**
+
+**Provides Strengths and Weaknesses**
+
+   <img width="1328" height="714" alt="Screenshot 2026-06-08 at 6 31 31 PM" src="https://github.com/user-attachments/assets/c95ed0f3-3e5d-49c4-af64-a6504c072f10" />
+
+**Provides fetaures to inculcate**
+
+   <img width="1407" height="760" alt="Screenshot 2026-06-08 at 6 31 45 PM" src="https://github.com/user-attachments/assets/32c62cb6-13de-426a-9057-32edfe916ebf" />
+
+   **Provides interview questions and approach**
+
+   <img width="1435" height="609" alt="Screenshot 2026-06-08 at 6 31 58 PM" src="https://github.com/user-attachments/assets/a955cb45-c89e-4dec-8d29-80fa73a3bbe8" />
+
+
+
